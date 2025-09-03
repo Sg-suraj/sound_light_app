@@ -1,8 +1,6 @@
 Dynamic Colour Light 🎨
 This is a simple web application that turns your screen into a dynamic, sound-reactive light. It uses your device's microphone to listen to ambient sound or music and changes the background color in real-time, creating a simple and fun visualizer effect.
 
-(https://sound-light-app.onrender.com))
-
 ## The Problem
 Listening to music or having a party in a room with just static lighting can feel a bit dull. Traditional music visualizers are often complex or confined to a specific media player. How can we create a simple, accessible, and immersive visual experience that reacts to any sound in the room?
 
@@ -44,4 +42,6 @@ Gunicorn (as the production web server)
 Deployment:
 
 Render
+
+© 2025 Suraj Kumar. All Rights Reserved.
 
