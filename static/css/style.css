@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111; /* A dark default background */
+    
+    /* These three lines center the button */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#light-display {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* This transition makes color changes smooth later on */
+    transition: background-color 0.1s linear;
+    z-index: -1; /* This keeps the light behind the button */
+}
+
+#startButton {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
