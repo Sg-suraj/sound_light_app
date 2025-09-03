@@ -18,7 +18,7 @@ body {
     height: 100%;
     background-color: black;
     /* This transition makes color changes smooth later on */
-    transition: background-color 0.9s linear;
+    transition: background-color 1s linear;
     z-index: -1; /* This keeps the light behind the button */
 }
 
